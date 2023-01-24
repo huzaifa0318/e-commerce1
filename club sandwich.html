@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Club sandwich Detail</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body style="background-color: black; color: white;">
+    <!-- navbar -->
+
+    <!-- Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light my-2 ms-2 me-2" ">
+    <div class="container-fluid justify-content-between">
+      <!-- Left elements -->
+      <div class="d-flex">
+        <!-- Brand -->
+        <a class="navbar-brand ms-2 me-2 mb-1 d-flex align-items-center" href="#">
+          <img
+            src="images/large.png"
+            height="50px"
+            alt="MDB Logo"
+            loading="lazy"
+            style="margin-top: 2px;"
+          />
+        </a>
+  
+        <!-- Search form -->
+        <form class="input-group w-auto my-auto d-none d-sm-flex">
+          <input
+            autocomplete="off"
+            type="search"
+            class="form-control rounded"
+            placeholder="Search"
+            style="min-width: 125px;"
+          />
+          <span class="input-group-text border-0 d-none d-lg-flex"
+            ><i class="fas fa-search"></i
+          ></span>
+        </form>
+      </div>
+      <!-- Left elements -->
+  
+      <!-- Center elements -->
+      <ul class="navbar-nav flex-row d-none d-md-flex">
+        <li class="nav-item me-3 me-lg-1 active">
+          <a class="nav-link" href="index.html">
+            <span><i class="fas fa-home fa-lg"></i></span>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+        </li>
+  
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-flag fa-lg"></i></span>
+          </a>
+        </li>
+  
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-video fa-lg"></i></span>
+          </a>
+        </li>
+  
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-shopping-bag fa-lg"></i></span>
+          </a>
+        </li>
+  
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-users fa-lg"></i></span>
+            <span class="badge rounded-pill badge-notification bg-danger">2</span>
+          </a>
+        </li>
+      </ul>
+      <!-- Center elements -->
+  
+      <!-- Right elements -->
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp"
+              class="rounded-circle"
+              height="22"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+            <strong class="d-none d-sm-block ms-1">Huzaifa Mushehdi</strong>
+          </a>
+        </li>
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-plus-circle fa-lg"></i></span>
+          </a>
+        </li>
+        <li class="nav-item dropdown me-3 me-lg-1">
+          <a
+            class="nav-link dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-comments fa-lg"></i>
+  
+            <span class="badge rounded-pill badge-notification bg-danger">12</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown me-3 me-lg-1">
+          <a
+            class="nav-link dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell fa-lg"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">12</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown me-3 me-lg-1">
+          <a
+            class="nav-link dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-chevron-circle-down fa-lg"></i>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <!-- Right elements -->
+    </div>
+  </nav>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-11 col-md-6">
+          <img
+            class="img-fluid"
+            src="data:image/jpeg;base64,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" alt="..." 
+            style="height: 400px; width: 700px;"
+          />
+        </div>
+        <div class="col-11 col-md-6">
+          <h1 class="mt-sm-3 mt-lg-0" style="font-family: cursive;">chiken buket</h1>
+          <p>
+            A club sandwich, also called a clubhouse sandwich, is a sandwich consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonnaise.[1][2][3] It is often cut into quarters or halves and held together by cocktail sticks. Modern versions frequently have two layers which are separated by an additional slice of bread.
+          </p>
+
+          <h5>Select buket you want</h5>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Spicy
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              normal 
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              crispy
+            </label>
+          </div>
+<!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Quantity
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">1</a></li>
+      <li><a class="dropdown-item" href="#">2</a></li>
+      <li><a class="dropdown-item" href="#">3</a></li>
+      <li><hr class="dropdown-divider">others</li>
+      <li><a class="dropdown-item" href="#"></a> <input type="text"> </li>
+    </ul>
+  </div>
+          <!-- <div class="d-flex align-items-center my-2">
+            <div class="plusMinusDiv">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <span class="fs-3 mx-3">3</span>
+
+            <div class="plusMinusDiv">
+              <i class="fa-solid fa-minus"></i>
+            </div>
+          </div> -->
+
+          <div class="row mt-3">
+            <button type="button" class="col-11 col-md-5 btn  btn-outline-primary ms-2">
+              Add to Cart
+            </button>
+            <button
+              type="button"
+              class="col-11 mt-2 mt-lg-0 col-lg-5 ms-lg-3 btn btn-outline-success "
+            >
+              Buy
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-around px-2 py-3" style="background-color: rgb(247, 216, 221);">
+      <p class=".leads my-0 text-white"></p>
+
+      <span>
+        <a href="https://twitter.com/officialswit?lang=en">
+          <img src="images/square-facebook.svg" height="30px" width="30px" alt="" />
+        </a>
+        <a href="https://twitter.com/officialswit?lang=en">
+          <img src="images/instagram.svg" height="30px" width="30px" alt="" />
+        </a>
+        <a href="https://twitter.com/officialswit?lang=en">
+          <img src="images/whatsapp.svg" height="30px" width="30px" alt="" />
+        </a>
+      </span>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

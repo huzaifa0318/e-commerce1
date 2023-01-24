@@ -1,0 +1,36 @@
+.navbar{
+    /* border-radius: 40px; */
+    /* color:rgb(161, 127, 161); */
+    
+}
+.container-fluid{
+    background-color:aliceblue;
+    border-radius: 30px;
+}
+.search-bar{
+    margin-left: 30px;
+    border-radius: 30px;
+}
+body{
+    background-color: black;
+}
+.fixed-button {
+    position: fixed;
+  /* height: 40px;
+  width: 40px;  */
+  bottom: 50px;
+  right: 50px;
+    z-index: 100;
+}
+.fixed-image{
+    position: fixed;
+    /* height: 40px;
+    width: 40px;  */
+    bottom: 50px;
+    right: 50px;
+      z-index: 100; 
+
+}
+.card-body .btn .btn-outline-primary a{
+text-decoration: none !important;
+}
